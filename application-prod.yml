@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: config-prod
-
 eureka:
   client:
     enabled: true
