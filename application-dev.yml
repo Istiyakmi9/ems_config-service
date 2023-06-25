@@ -4,3 +4,6 @@ file:
 eureka:
   client:
     enabled: false
+
+env:
+  folder: development-environment
