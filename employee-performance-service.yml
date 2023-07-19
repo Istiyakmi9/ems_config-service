@@ -1,2 +1,6 @@
 service:
   name: emloyee-performance-service
+
+spring:
+  profiles:
+    active: prod
