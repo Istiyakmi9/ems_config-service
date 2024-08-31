@@ -1,5 +1,3 @@
-service:
-  name: emloyee-performance-service
-
-file:
+performance-service:
+  name: employee-performance-service
   folder: test
