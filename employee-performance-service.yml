@@ -2,5 +2,4 @@ service:
   name: emloyee-performance-service
 
 file:
-  folder:
-    test
+  folder: test
