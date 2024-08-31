@@ -4,3 +4,7 @@ service:
 spring:
   profiles:
     active: prod
+
+file:
+  folder:
+    test
