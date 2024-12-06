@@ -1,1 +1,25 @@
-ewogICJLYWZrYVNlcnZlckRldGFpbCI6IHsKICAgICJib290c3RyYXBzZXJ2ZXJzIjogImxvY2FsaG9zdDo5MDkyIgogIH0sCiAgIkthZmthU2VydmljZUNvbmZpZyI6IFsKICAgIHsKICAgICAgIlRvcGljIjogImF0dGVuZGFuY2VfcmVxdWVzdF9hY3Rpb24iLAogICAgICAiU2VydmljZU5hbWUiOiAibG9jYWxob3N0IiwKICAgICAgIkdyb3VwSWQiOiAiZ2lkLWNvbnN1bWVycyIsCiAgICAgICJQb3J0IjogOTA5MgogICAgfSwKICAgIHsKICAgICAgIlRvcGljIjogImV4Y2VwdGlvbl9tZXNzYWdlX2Jyb2tlciIsCiAgICAgICJTZXJ2aWNlTmFtZSI6ICJsb2NhbGhvc3QiLAogICAgICAiR3JvdXBJZCI6ICJnaWQtY29uc3VtZXJzIiwKICAgICAgIlBvcnQiOiA5MDkyCiAgICB9LAogICAgewogICAgICAiVG9waWMiOiAiZGFpbHktam9icy1tYW5hZ2VyIiwKICAgICAgIlNlcnZpY2VOYW1lIjogImxvY2FsaG9zdCIsCiAgICAgICJHcm91cElkIjogImRhaWx5Sm9iR3JvdXAiLAogICAgICAiUG9ydCI6IDkwOTIKICAgIH0KICBdLAp9
+{
+  "KafkaServerDetail": {
+    "bootstrapservers": "localhost:9092"
+  },
+  "KafkaServiceConfig": [
+    {
+      "Topic": "attendance_request_action",
+      "ServiceName": "localhost",
+      "GroupId": "gid-consumers",
+      "Port": 9092
+    },
+    {
+      "Topic": "exception_message_broker",
+      "ServiceName": "localhost",
+      "GroupId": "gid-consumers",
+      "Port": 9092
+    },
+    {
+      "Topic": "daily-jobs-manager",
+      "ServiceName": "localhost",
+      "GroupId": "dailyJobGroup",
+      "Port": 9092
+    }
+  ],
+}
