@@ -1,0 +1,25 @@
+{
+  "KafkaServerDetail": {
+    "bootstrapservers": "localhost:9092"
+  },
+  "KafkaServiceConfig": [
+    {
+      "Topic": "attendance_request_action",
+      "ServiceName": "localhost",
+      "GroupId": "gid-consumers",
+      "Port": 9092
+    },
+    {
+      "Topic": "exception_message_broker",
+      "ServiceName": "localhost",
+      "GroupId": "gid-consumers",
+      "Port": 9092
+    },
+    {
+      "Topic": "daily-jobs-manager",
+      "ServiceName": "localhost",
+      "GroupId": "dailyJobGroup",
+      "Port": 9092
+    }
+  ],
+}
